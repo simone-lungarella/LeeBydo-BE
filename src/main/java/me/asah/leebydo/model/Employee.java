@@ -33,7 +33,7 @@ public class Employee implements Serializable {
     @Column(nullable = false, updatable = false)
     @Getter
     @Setter
-    private String id;
+    private Integer id;
 
     /**
      * Nome dell'impiegato.
