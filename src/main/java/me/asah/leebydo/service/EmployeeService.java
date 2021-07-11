@@ -3,6 +3,8 @@ package me.asah.leebydo.service;
 import java.util.List;
 import java.util.UUID;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -82,6 +84,7 @@ public class EmployeeService {
      * 
      * @param id Identificativo dell'impiegato da eliminare.
      */
+    @Transactional
     public void deleteEmployee(Long id) {
         employeeRepo.deleteEmployeeById(id);
     }

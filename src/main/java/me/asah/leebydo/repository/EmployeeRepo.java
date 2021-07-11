@@ -2,6 +2,8 @@ package me.asah.leebydo.repository;
 
 import java.util.Optional;
 
+import javax.transaction.Transactional;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import me.asah.leebydo.model.Employee;
@@ -19,6 +21,7 @@ public interface EmployeeRepo extends JpaRepository<Employee, Long> {
      * 
      * @param id Identificativo dell'Employee da eliminare.
      */
+    @Transactional
     void deleteEmployeeById(Long id);
 
     /**
