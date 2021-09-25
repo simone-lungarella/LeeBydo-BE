@@ -1,4 +1,4 @@
-# LeeBydo
+# LeeBydo-BE
 
 Basic web application that handle employees of an Enterprise, provides rest services to LeeBydo-FE.
 
