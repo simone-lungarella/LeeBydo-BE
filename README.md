@@ -1,5 +1,5 @@
 # LeeBydo
 
-Basic web application that handle employees of an Enterprise.
+Basic web application that handle employees of an Enterprise, provides rest services to LeeBydo-FE.
 
-Spring boot | Spring JPA | Angular | Lombok | MySQL | Maven | GitHub | Postman
+Spring boot | Spring JPA | MySQL | Maven | Postman
